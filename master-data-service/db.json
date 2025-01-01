@@ -1,0 +1,201 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "name": "Kachin State",
+      "code": "KCN"
+    },
+    {
+      "id": 2,
+      "name": "Kayah State",
+      "code": "KYH"
+    },
+    {
+      "id": 3,
+      "name": "Kayin State",
+      "code": "KYN"
+    },
+    {
+      "id": 4,
+      "name": "Chin State",
+      "code": "CHN"
+    },
+    {
+      "id": 5,
+      "name": "Mon State",
+      "code": "MON"
+    },
+    {
+      "id": 6,
+      "name": "Rakhine State",
+      "code": "RAK"
+    },
+    {
+      "id": 7,
+      "name": "Shan State",
+      "code": "SHN"
+    },
+    {
+      "id": 8,
+      "name": "Ayeyarwady Region",
+      "code": "AYR"
+    },
+    {
+      "id": 9,
+      "name": "Bago Region",
+      "code": "BGO"
+    },
+    {
+      "id": 10,
+      "name": "Magway Region",
+      "code": "MGW"
+    },
+    {
+      "id": 11,
+      "name": "Mandalay Region",
+      "code": "MDY"
+    },
+    {
+      "id": 12,
+      "name": "Sagaing Region",
+      "code": "SGG"
+    },
+    {
+      "id": 13,
+      "name": "Tanintharyi Region",
+      "code": "TNI"
+    },
+    {
+      "id": 14,
+      "name": "Yangon Region",
+      "code": "YGN"
+    },
+    {
+      "id": 15,
+      "name": "Naypyidaw Union Territory",
+      "code": "NPT"
+    }
+  ],
+  "townships": [
+    {
+      "id": 1,
+      "name": "Myitkyina",
+      "code": "MYT",
+      "state_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Bhamo",
+      "code": "BMO",
+      "state_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Loikaw",
+      "code": "LOI",
+      "state_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Demoso",
+      "code": "DMO",
+      "state_id": 2
+    },
+    {
+      "id": 5,
+      "name": "Hpa-An",
+      "code": "HPN",
+      "state_id": 3
+    },
+    {
+      "id": 6,
+      "name": "Myawaddy",
+      "code": "MYW",
+      "state_id": 3
+    },
+    {
+      "id": 7,
+      "name": "Hakha",
+      "code": "HKH",
+      "state_id": 4
+    },
+    {
+      "id": 8,
+      "name": "Falam",
+      "code": "FLM",
+      "state_id": 4
+    },
+    {
+      "id": 9,
+      "name": "Mawlamyine",
+      "code": "MLM",
+      "state_id": 5
+    },
+    {
+      "id": 10,
+      "name": "Mudon",
+      "code": "MDN",
+      "state_id": 5
+    },
+    {
+      "id": 11,
+      "name": "Sittwe",
+      "code": "STW",
+      "state_id": 6
+    },
+    {
+      "id": 12,
+      "name": "Maungdaw",
+      "code": "MGD",
+      "state_id": 6
+    },
+    {
+      "id": 13,
+      "name": "Taunggyi",
+      "code": "TGI",
+      "state_id": 7
+    },
+    {
+      "id": 14,
+      "name": "Lashio",
+      "code": "LSH",
+      "state_id": 7
+    },
+    {
+      "id": 15,
+      "name": "Pathein",
+      "code": "PTN",
+      "state_id": 8
+    },
+    {
+      "id": 16,
+      "name": "Hinthada",
+      "code": "HND",
+      "state_id": 8
+    },
+    {
+      "id": 17,
+      "name": "Bago",
+      "code": "BGO",
+      "state_id": 9
+    },
+    {
+      "id": 18,
+      "name": "Pyay",
+      "code": "PYI",
+      "state_id": 9
+    },
+    {
+      "id": 19,
+      "name": "Mandalay",
+      "code": "MDY",
+      "state_id": 11
+    },
+    {
+      "id": 20,
+      "name": "Amarapura",
+      "code": "AMP",
+      "state_id": 11
+    }
+  ]
+}

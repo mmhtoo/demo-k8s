@@ -1,0 +1,6 @@
+@AccountOpening_HostAddress = http://localhost:5221
+
+GET {{AccountOpening_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

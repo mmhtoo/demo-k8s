@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-api-gateway
+  labels:
+    app: demo-api-gateway
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-api-gateway
+  template:
+    metadata:
+      labels:
+        app: demo-api-gateway
+    spec:
+      containers:
+        - image: myominhtoo/demo-api-gateway:20250101001
+          name: demo-api-gateway
+          ports:
+            - containerPort: 3000
+          env:
+            - name: MASTER_DATA_SERVICE_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: demo-configmap
+                  key: master-data-service
+          resources:
+            limits:
+              memory: "1024Mi"
+              cpu: "1000m"
+            requests:
+              memory: "1024Mi"
+              cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-api-gateway
+spec:
+  selector:
+    app: demo-api-gateway
+  type: NodePort
+  ports:
+    - port: 3000
+      protocol: TCP
+      targetPort: 3000
+      nodePort: 30000
